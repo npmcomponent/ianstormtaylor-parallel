@@ -1,9 +1,7 @@
 {
-  "name": "parallel",
-  "repository": "git://github.com/ianstormtaylor/parallel.git",
+  "name": "ianstormtaylor-parallel",
   "description": "A simple API for running async functions in parallel.",
   "version": "0.0.2",
-  "license": "MIT",
   "keywords": [
     "function",
     "async",
@@ -11,7 +9,8 @@
     "series"
   ],
   "dependencies": {
-    "batch": "~0.5.0",
-    "each-component": "git://github.com/component/each"
-  }
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "visionmedia-batch": "git://github.com/npmcomponent/visionmedia-batch.git"
+  },
+  "license": "MIT"
 }

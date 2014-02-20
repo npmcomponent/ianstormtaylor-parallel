@@ -1,10 +1,10 @@
 
-var Batch = require('batch');
+var Batch = require('visionmedia-batch');
 
 try {
-  var each = require('each');
+  var each = require('component-each');
 } catch (e) {
-  var each = require('each-component');
+  // commented out by npm-component: var each = require('each-component');
 }
 
 
